@@ -105,3 +105,23 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../../public/fonts/Eurostile.woff') format('woff');
+  /* Add more formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-primary{
+  font-family: 'Eurostile' , 'caliber';
+}
+.font12{
+  font-size: 0.9rem !important;
+}
+/* .carousel-item {
+  border-radius: 10%;
+  overflow: hidden;
+  
+} */
