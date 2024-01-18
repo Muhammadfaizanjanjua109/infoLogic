@@ -17,8 +17,8 @@ export default function Home() {
      <div className='row bg-black border border-light'>
         <div className='col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center'>
 <div className=''>
-<h1 className='font-primary text-light h1' style={{fontSize:'5em'}}>Innovate</h1>
-<p className='font-primary text-light ' style={{fontSize:'1.5em'}}>With AI $ Machine Learning</p>
+<h1 className='font-primary text-light h1' style={{fontSize:'4rem'}}>Innovate</h1>
+<p className='font-primary text-light ' style={{fontSize:'1.5rem'}}>With AI $ Machine Learning</p>
 <p className='text-primary'>An Cutting Edge AI development firm facilitating innovation and swift progess</p>
 </div>
 
@@ -44,12 +44,13 @@ export default function Home() {
 <ProjectNavbar />
 
 <div className='border border-light  pb-2 pt-5 bg-black'>
-<div className='mx-auto border border-light p-4 mb-5 w-25 text-center text-light fw-bolder'>Our Recognition</div>
+<div className='mx-auto border border-light p-4 mb-5 w-25'>
+  <h5 style={{wordBreak:'break-word' , fontSize:'larger'}}  className='h1 text-center text-light fw-bolder'>Our Recognition</h5></div>
 
-<div className='row pt-2 pb-3 justify-content-around ' >
+<div className='row pt-2 pb-3 justify-content-around mobResRecong' >
 {recongImages.map((index)=>{
 return ( <>
-<div className='col-lg-2 col-md-2 col-sm-12 '>
+<div className='col-lg-2 col-md-2 col-sm-12 d-flex justify-content-center align-items-center'>
 <Image src={index} alt={'asd'} />
 </div>
 

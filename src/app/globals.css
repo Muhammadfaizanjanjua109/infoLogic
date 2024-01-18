@@ -125,3 +125,21 @@ a {
   overflow: hidden;
   
 } */
+
+
+
+
+@media (min-width: 575.98px) { 
+
+  
+.justify-content-around.mobResRecong{
+  justify-content: center !important;
+}
+ }
+
+ @media (max-width: 767.98px) {
+  .justify-content-around.mobResRecong{
+    justify-content: center !important;
+  }
+
+  }
